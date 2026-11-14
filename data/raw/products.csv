@@ -1,0 +1,44 @@
+﻿product_id,product_name,category,unit_price,unit_cost
+1,Basic T-Shirt,Apparel,8.6,5.1
+2,Graphic T-Shirt,Apparel,9.7,5.4
+3,Oversized T-Shirt,Apparel,12.7,5.8
+4,Polo Shirt,Apparel,15.4,9.3
+5,Formal Shirt,Apparel,13.4,8.6
+6,Casual Shirt,Apparel,10.5,5.6
+7,Hoodie,Apparel,16.3,10.8
+8,Sweatshirt,Apparel,20.5,11.9
+9,Denim Jeans,Apparel,18.6,11.0
+10,Wide-leg Jeans,Apparel,27.7,18.8
+11,Chino Trousers,Apparel,22.1,11.7
+12,Casual Shorts,Apparel,10.0,5.7
+13,Denim Shorts,Apparel,15.7,9.3
+14,Casual Dress,Apparel,15.1,9.5
+15,Midi Skirt,Apparel,16.8,8.7
+16,Denim Jacket,Apparel,33.3,19.8
+17,Bomber Jacket,Apparel,32.6,18.1
+18,Knit Cardigan,Apparel,20.5,11.9
+19,Basic Sneakers,Footwear,29.6,19.5
+20,Retro Sneakers,Footwear,35.8,23.3
+21,Chunky Sneakers,Footwear,35.3,26.2
+22,Running Shoes,Footwear,23.6,17.3
+23,Casual Sandals,Footwear,10.6,7.0
+24,Sport Sandals,Footwear,15.0,10.5
+25,Basic Slides,Footwear,9.8,5.7
+26,Logo Slides,Footwear,10.2,6.3
+27,Classic Loafers,Footwear,23.7,14.4
+28,Classic Baseball Cap,Headwear,8.2,3.9
+29,Logo Baseball Cap,Headwear,6.9,3.2
+30,Basic Bucket Hat,Headwear,5.7,2.9
+31,Washed Bucket Hat,Headwear,10.9,5.1
+32,Knit Beanie,Headwear,9.3,4.8
+33,Vintage Washed Cap,Headwear,11.2,5.2
+34,Canvas Tote Bag,Accessories,7.4,4.4
+35,Everyday Tote Bag,Accessories,9.9,5.6
+36,Crossbody Bag,Accessories,12.1,5.9
+37,Utility Backpack,Accessories,26.3,17.3
+38,Classic Belt,Accessories,8.3,4.3
+39,Canvas Belt,Accessories,7.7,3.8
+40,Bifold Wallet,Accessories,8.9,5.3
+41,Card Holder,Accessories,6.8,3.7
+42,Crew Socks,Accessories,3.8,1.4
+43,Classic Sunglasses,Accessories,9.2,5.6
