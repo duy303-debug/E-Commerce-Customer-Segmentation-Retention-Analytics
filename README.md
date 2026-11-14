@@ -32,42 +32,42 @@ A major focus is **RFM Customer Segmentation**, which evaluates customers based 
 
 ## 🧹 Phase 1: Data Quality & Data Cleaning (Python)
 
-- 🔍 Checked missing values across customer, product, order, and order item tables
-- 🔄 Checked duplicate records and duplicate customer IDs
-- 🔢 Validated data types for numeric and datetime columns
-- 📅 Checked invalid and future dates
-- 💰 Checked invalid product costs where `unit_cost > unit_price`
-- 📦 Checked invalid order item quantities where `quantity <= 0`
-- 🔗 Checked referential integrity between orders and order items
-- 🔗 Checked referential integrity between products and order items
-- 🧹 Removed duplicate records and invalid order items
-- 💾 Saved cleaned datasets as CSV files for downstream analysis
+- Checked missing values across customer, product, order, and order item tables
+- Checked duplicate records and duplicate customer IDs
+- Validated data types for numeric and datetime columns
+- Checked invalid and future dates
+- Checked invalid product costs where `unit_cost > unit_price`
+- Checked invalid order item quantities where `quantity <= 0`
+- Checked referential integrity between orders and order items
+- Checked referential integrity between products and order items
+- Removed duplicate records and invalid order items
+- Saved cleaned datasets as CSV files for downstream analysis
 
 ## 🗄️ Phase 2: Database Loading & SQL Server
 
-- 🏗️ Designed a relational database schema for customers, products, orders, and order items
-- 🗃️ Created tables and defined appropriate data types and relationships
-- 🔌 Connected Python to SQL Server using **PyODBC**
-- ⚡ Loaded preprocessed CSV data into SQL Server using `executemany` and `fast_executemany`
-- 🔐 Used transaction handling with `commit` and `rollback` to ensure reliable data loading
-- 🔎 Wrote SQL queries to analyze sales performance and customer purchasing behavior
+- Designed a relational database schema for customers, products, orders, and order items
+- Created tables and defined appropriate data types and relationships
+- Connected Python to SQL Server using **PyODBC**
+- Loaded preprocessed CSV data into SQL Server
+- Used transaction handling with `commit` and `rollback` to ensure reliable data loading
+- Wrote SQL queries to analyze sales performance and customer purchasing behavior
 
 ## 📊 Phase 3: Customer Analytics
 
-- 👥 Analyzed customer purchasing behavior using transactional data
-- 📈 Calculated **Recency, Frequency, and Monetary (RFM)** metrics for customer segmentation
-- 🏷️ Classified customers into **11 RFM segments** based on their purchasing behavior
-- 🔄 Performed **Cohort Analysis** to measure customer retention over time
-- 📅 Grouped customers by their first purchase month and tracked subsequent purchasing activity
+- Analyzed customer purchasing behavior using transactional data
+- Calculated **Recency, Frequency, and Monetary (RFM)** metrics for customer segmentation
+- Classified customers into **11 RFM segments** based on their purchasing behavior
+- Performed **Cohort Analysis** to measure customer retention over time
+- Grouped customers by their first purchase month and tracked subsequent purchasing activity
 
 ## 📈 Phase 4: Power BI Dashboard
 
-- 📊 Built an interactive dashboard to monitor sales performance and customer behavior
-- 💰 Analyzed revenue, gross profit, orders, customers, and average order value
-- 👥 Visualized **RFM Customer Segmentation** and customer distribution
-- 🔄 Built a **Cohort Retention Analysis** to evaluate customer retention over time
-- 🎯 Used **DAX measures** for KPI calculations and analytical metrics
-- 💡 Transformed analytical results into actionable business insights
+- Built an interactive dashboard to monitor sales performance and customer behavior
+- Analyzed revenue, gross profit, orders, customers, and average order value
+- Visualized **RFM Customer Segmentation** and customer distribution
+- Built a **Cohort Retention Analysis** to evaluate customer retention over time
+- Used **DAX measures** for KPI calculations and analytical metrics
+- Transformed analytical results into actionable business insights
 ---
 
 # 📊 Dashboard Preview
