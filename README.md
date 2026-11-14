@@ -84,7 +84,7 @@ It focuses on:
 - Customer contribution
 - Product and category performance
 
-<img width="1800" height="1012" alt="image" src="https://github.com/user-attachments/assets/1ea50eeb-6a1c-4657-9801-0cda6c44d3d7" />
+<img width="1791" height="1015" alt="image" src="https://github.com/user-attachments/assets/b639994b-df09-4529-b398-170d7306c23b" />
 
 
 ---
@@ -118,7 +118,8 @@ Customers are scored across the three dimensions and classified into **11 behavi
 
 This segmentation helps the business understand **customer value, engagement, and purchasing behavior**, while providing actionable strategies for different customer groups.
 
-<img width="1796" height="1007" alt="image" src="https://github.com/user-attachments/assets/bb1fd374-294e-4f7e-8106-faf88c2e8619" />
+<img width="1796" height="1012" alt="image" src="https://github.com/user-attachments/assets/bb1a1999-9a27-4e11-afa5-c1b286edadbb" />
+
 
 ---
 ## 3️⃣ Cohort Retention Analysis
@@ -133,7 +134,9 @@ The analysis helps identify:
 - Repeat purchasing behavior
 - Differences in retention between customer cohorts
 
-<img width="1667" height="1002" alt="image" src="https://github.com/user-attachments/assets/717ba6e5-ffe5-469e-b669-b24830b7551e" />
+<img width="1802" height="1012" alt="image" src="https://github.com/user-attachments/assets/9b510861-e7ac-4fe9-b4f0-763da77cf9b3" />
+<img width="1792" height="1005" alt="image" src="https://github.com/user-attachments/assets/c1849526-9bff-4fff-9a0a-9567e4bd85a6" />
+
 
 ---
 ## 📁 Project Structure
