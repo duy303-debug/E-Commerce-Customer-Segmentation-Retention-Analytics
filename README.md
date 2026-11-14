@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 About the Project
+# 📌 About the Project
 
 This project analyzes transactional data from an **e-commerce store** to understand sales performance, customer purchasing behavior, and customer retention.
 
@@ -22,7 +22,7 @@ A major focus is **RFM Customer Segmentation**, which evaluates customers based 
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - 🐍 **Python / Pandas** — Data Quality Checks, Data Cleaning & Preprocessing
 - 🗄️ **SQL Server** — Relational Database, Data Storage & Analytical Queries
@@ -139,7 +139,36 @@ The analysis helps identify:
 
 
 ---
-## 📁 Project Structure
+
+# 🔍 Key Insights
+
+- **Strong year-end sales:** Revenue increased sharply in November and December, reaching **$2.5M total revenue** and **$1.01M gross profit**.
+
+- **High delivery rate:** **88.7% of orders were delivered**, indicating generally strong order fulfillment performance.
+
+- **Large potential for customer retention:** **Potential Loyalists (19.97%)** and **Champions (16.81%)** represent a significant portion of the customer base.
+
+- **Significant inactive customer base:** **Lost, Hibernating, At Risk, and Can't Lose Them** customers account for a substantial share of customers, creating a clear reactivation opportunity.
+
+- **Low purchase frequency:** The average customer makes only **1.93 purchases**, indicating that many customers are still low-frequency buyers.
+
+- **Sharp retention decline:** For the 2025 cohort, retention drops from **100% in Month 1 to 8.55% in Month 2 and 5.84% in Month 3**, highlighting challenges in converting first-time buyers into repeat customers.
+
+# 🎯 Recommended Actions
+
+- **Increase repeat purchases:** Use post-purchase campaigns, personalized recommendations, cross-selling, and second-purchase incentives.
+
+- **Strengthen loyalty:** Reward **Champions, Loyal Customers, and Potential Loyalists** with exclusive offers, loyalty rewards, and early access to new products.
+
+- **Reactivate inactive customers:** Target **At Risk, Can't Lose Them, About To Sleep, and Hibernating** customers with personalized re-engagement campaigns.
+
+- **Prioritize high-value customers:** Focus win-back campaigns on inactive customers with historically high spending or purchase frequency.
+
+- **Improve early retention:** Focus retention efforts during the **first 1–3 months** after the first purchase, when customer drop-off is highest.
+
+- **Leverage seasonal demand:** Prepare inventory and promotional campaigns ahead of the strong **November–December** sales period to maximize revenue and profit.
+---
+# 📁 Project Structure
 
 ```text
 E-Commerce-Customer-Segmentation-Retention-Analytics/
