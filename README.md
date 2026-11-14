@@ -108,16 +108,16 @@ E-Commerce-Customer-Segmentation-Retention-Analytics/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── customers.xlsx
-│   │   ├── orders.xlsx
-│   │   ├── order_items.xlsx
-│   │   └── products.xlsx
+│   │   ├── customers.csv
+│   │   ├── orders.csv
+│   │   ├── order_items.csv
+│   │   └── products.csv
 │   │
 │   └── preprocessed/
-│       ├── customers_clean.xlsx
-│       ├── orders_clean.xlsx
-│       ├── order_items_clean.xlsx
-│       └── products_clean.xlsx
+│       ├── customers_clean.csv
+│       ├── orders_clean.csv
+│       ├── order_items_clean.csv
+│       └── products_clean.csv
 │
 ├── scripts/
 │   ├── clean_data.py
@@ -129,4 +129,3 @@ E-Commerce-Customer-Segmentation-Retention-Analytics/
 │   └── Analyst_queries.sql
 │
 └── README.md
-
