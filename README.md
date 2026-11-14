@@ -97,4 +97,36 @@ The analysis helps identify:
 
 <img width="1667" height="1002" alt="image" src="https://github.com/user-attachments/assets/717ba6e5-ffe5-469e-b669-b24830b7551e" />
 
+---
+## 📁 Project Structure
+
+```text
+E-Commerce-Customer-Segmentation-Retention-Analytics/
+│
+├── dashboard/
+│   └── dashboard.pbix
+│
+├── data/
+│   ├── raw/
+│   │   ├── customers.xlsx
+│   │   ├── orders.xlsx
+│   │   ├── order_items.xlsx
+│   │   └── products.xlsx
+│   │
+│   └── preprocessed/
+│       ├── customers_clean.xlsx
+│       ├── orders_clean.xlsx
+│       ├── order_items_clean.xlsx
+│       └── products_clean.xlsx
+│
+├── scripts/
+│   ├── clean_data.py
+│   ├── data_quality.py
+│   └── load_to_sql.py
+│
+├── sql/
+│   ├── create_database.sql
+│   └── Analyst_queries.sql
+│
+└── README.md
 
