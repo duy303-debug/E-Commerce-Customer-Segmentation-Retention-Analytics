@@ -54,11 +54,11 @@ A major focus is **RFM Customer Segmentation**, which evaluates customers based 
 
 ## 📊 Phase 3: Customer Analytics
 
-- Analyzed customer purchasing behavior using transactional data
-- Calculated **Recency, Frequency, and Monetary (RFM)** metrics for customer segmentation
-- Classified customers into **11 RFM segments** based on their purchasing behavior
-- Performed **Cohort Analysis** to measure customer retention over time
-- Grouped customers by their first purchase month and tracked subsequent purchasing activity
+- Built the RFM analysis with **CTEs** in multiple steps, using **delivered orders only**
+- Calculated **Recency** (days since last purchase, relative to the latest order date in the data), **Frequency** (number of orders), and **Monetary** (total spend) for each customer
+- Applied the **`NTILE(5)`** window function to score each metric from 1 to 5 (a more recent purchase gets a higher Recency score)
+- Combined the three scores to classify customers into **11 RFM segments**
+- Performed **Cohort Analysis**: grouped customers by **first purchase month** and measured the share of each cohort that purchased again in each following month
 
 ## 📈 Phase 4: Power BI Dashboard
 
