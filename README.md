@@ -19,7 +19,7 @@ The project uses **Python, SQL Server, and Power BI** to transform transactional
 A major focus is **RFM Customer Segmentation**, which evaluates customers based on their **Recency, Frequency, and Monetary value** to identify different behavioral groups — from highly engaged and valuable customers to customers showing signs of inactivity or churn.
 
 **Cohort Analysis** is also used to measure customer retention over time by tracking purchasing behavior after customers make their first purchase.
-> 📝 **Note:** The dataset used in this project is **synthetic** (generated for learning and portfolio purposes), not real customer data.
+>  **Note:** The dataset used in this project is **synthetic** (generated for learning and portfolio purposes), not real customer data.
 ---
 
 # 🛠️ Tech Stack
