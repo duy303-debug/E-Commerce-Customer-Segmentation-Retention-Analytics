@@ -19,7 +19,7 @@ The project uses **Python, SQL Server, and Power BI** to transform transactional
 A major focus is **RFM Customer Segmentation**, which evaluates customers based on their **Recency, Frequency, and Monetary value** to identify different behavioral groups — from highly engaged and valuable customers to customers showing signs of inactivity or churn.
 
 **Cohort Analysis** is also used to measure customer retention over time by tracking purchasing behavior after customers make their first purchase.
-
+> 📝 **Note:** The dataset used in this project is **synthetic** (generated for learning and portfolio purposes), not real customer data.
 ---
 
 # 🛠️ Tech Stack
@@ -140,33 +140,31 @@ The analysis helps identify:
 
 ---
 
-# 🔍 Key Insights
+# 🔍 Key Findings
 
-- **Strong year-end sales:** Revenue increased sharply in November and December, reaching **$2.5M total revenue** and **$1.01M gross profit**.
+- **Strong seasonal sales:** Revenue rose sharply in November and December, reaching **$2.5M total revenue** and **$1.01M gross profit** (≈40% gross margin). Year-end is the most important sales window, so inventory and campaigns should be planned before it starts.
 
-- **High delivery rate:** **88.7% of orders were delivered**, indicating generally strong order fulfillment performance.
+- **Low purchase frequency:** The average customer places only **1.93 orders**, so growth depends more on turning one-time buyers into repeat buyers than on acquiring new customers.
 
-- **Large potential for customer retention:** **Potential Loyalists (19.97%)** and **Champions (16.81%)** represent a significant portion of the customer base.
+- **Sharp early retention drop:** For the 2025 cohorts, retention falls from **100% in Month 1 to 8.55% in Month 2 and 5.84% in Month 3**. Most customers are lost right after their first purchase, making the first 1–3 months the critical retention window.
 
-- **Significant inactive customer base:** **Lost, Hibernating, At Risk, and Can't Lose Them** customers account for a substantial share of customers, creating a clear reactivation opportunity.
+- **Strong core of valuable customers:** **Potential Loyalists (19.97%)** and **Champions (16.81%)** together make up about **37% of customers**, and Potential Loyalists are the best candidates to upgrade into Champions.
 
-- **Low purchase frequency:** The average customer makes only **1.93 purchases**, indicating that many customers are still low-frequency buyers.
+- **Large inactive customer base:** **Lost, Hibernating, At Risk, and Can't Lose Them** customers account for a substantial share of customers, creating a clear reactivation opportunity, especially among At Risk and Can't Lose Them customers who previously spent the most.
 
-- **Sharp retention decline:** For the 2025 cohort, retention drops from **100% in Month 1 to 8.55% in Month 2 and 5.84% in Month 3**, highlighting challenges in converting first-time buyers into repeat customers.
+- **Reliable fulfillment:** **88.7% of orders were delivered**, so fulfillment is not the main problem. The weak point is customer retention after delivery.
 
 # 🎯 Recommended Actions
 
-- **Increase repeat purchases:** Use post-purchase campaigns, personalized recommendations, cross-selling, and second-purchase incentives.
+- **Increase second purchases:** Send post-purchase emails, personalized recommendations, and a small incentive within the first 30 days to lift Month-2 retention.
 
-- **Strengthen loyalty:** Reward **Champions, Loyal Customers, and Potential Loyalists** with exclusive offers, loyalty rewards, and early access to new products.
+- **Strengthen loyalty:** Offer loyalty rewards, membership, and early access to new products to **Champions, Loyal Customers, and Potential Loyalists**.
 
-- **Reactivate inactive customers:** Target **At Risk, Can't Lose Them, About To Sleep, and Hibernating** customers with personalized re-engagement campaigns.
+- **Win back high-value customers first:** Run personalized re-engagement campaigns for **At Risk** and **Can't Lose Them** customers.
 
-- **Prioritize high-value customers:** Focus win-back campaigns on inactive customers with historically high spending or purchase frequency.
+- **Reactivate low-value inactive customers cheaply:** Use low-cost offers for **About To Sleep, Hibernating, and Lost** customers, and make one final attempt before deprioritizing them.
 
-- **Improve early retention:** Focus retention efforts during the **first 1–3 months** after the first purchase, when customer drop-off is highest.
-
-- **Leverage seasonal demand:** Prepare inventory and promotional campaigns ahead of the strong **November–December** sales period to maximize revenue and profit.
+- **Prepare for peak season:** Plan inventory and promotions ahead of **November–December** to maximize revenue and profit.
 ---
 # 📁 Project Structure
 
