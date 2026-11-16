@@ -190,8 +190,7 @@ E-Commerce-Customer-Segmentation-Retention-Analytics/
 │       └── products_clean.csv
 │
 ├── scripts/
-│   ├── clean_data.py
-│   ├── data_quality.py
+│   ├── data_quality_and_clean.py
 │   └── load_to_sql.py
 │
 ├── sql/
